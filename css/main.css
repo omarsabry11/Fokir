@@ -131,6 +131,7 @@ a
     font-size: 1.6rem;
     font-weight: 300;
     margin: 0;
+    text-wrap: nowrap;
     
 }
 
@@ -142,6 +143,8 @@ a
     overflow: hidden;
     padding-right: 0.5rem;
     border-right: 2px solid white;
+    text-wrap: nowrap;
+
 
 }
 .wrap h3
