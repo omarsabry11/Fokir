@@ -548,7 +548,6 @@ nav i:hover + ul
 .portfolio .items .box .inner
 {
     position: relative;
-
 }
 
 .portfolio .items .box .inner::before
@@ -560,14 +559,14 @@ nav i:hover + ul
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.6);
-    display: none;
+    opacity: 0;
     transition: 0.3s;
+
 }
 .portfolio .items .box .inner:hover::before
 {
-    display: block;   
+    opacity: 1;
 }
-
 .portfolio .box img
 {
     width: 100%;
