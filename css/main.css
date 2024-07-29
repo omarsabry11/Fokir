@@ -944,9 +944,13 @@ footer .icons i
 {
     color: white;
 }
-footer p span
+footer p a
 {
     color: var(--main-color);
+}
+footer p a:hover
+{
+    text-decoration: underline;
 }
 
 /* End Footer */
