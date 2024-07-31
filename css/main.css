@@ -938,7 +938,14 @@ footer .icons
 footer .icons i
 {
     color: white;
+    transition: 0.3s;
 }
+footer .icons i:hover
+{
+    color: var(--main-color);
+
+}
+
 footer p a
 {
     color: var(--main-color);
